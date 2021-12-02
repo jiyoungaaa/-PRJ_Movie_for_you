@@ -82,3 +82,4 @@ finally:
 
 # df_review = pd.DataFrame({'title':titles, 'reviews':reviews})
 # df_review.to_csv('./crawling_data_/reviews_{}.csv'.format(2020))
+

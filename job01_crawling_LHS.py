@@ -32,7 +32,7 @@ review_number_xpath = '//*[@id="reviewTab"]/div/div/div[2]/span/em'
 years = 2020
 
 try:
-    for i in range(25, 38):
+    for i in range(1, 38):
         url = 'https://movie.naver.com/movie/sdb/browsing/bmovie.naver?open={}&page={}'.format(years, i)
         titles = []
         reviews = []

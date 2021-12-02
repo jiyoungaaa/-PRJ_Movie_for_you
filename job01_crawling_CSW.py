@@ -12,7 +12,7 @@
 
 from selenium import webdriver
 import pandas as pd
-from selenium.common.exceptions import NoSuchElementException,
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 import time
 
 options = webdriver.ChromeOptions()

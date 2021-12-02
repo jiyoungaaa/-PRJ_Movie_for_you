@@ -97,3 +97,4 @@ finally :
     driver.close()
 # df_review = pd.DataFrame({'title':titles, "reviews":reviews})
 # df_review.to_csv('./crawling_data/reviews_{}.csv'.format(2020))
+print("최승우")
